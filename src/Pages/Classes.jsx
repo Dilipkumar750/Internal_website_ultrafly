@@ -65,14 +65,13 @@ function Classes() {
               <h1 className="project-title">{project.title}</h1>
               <div className="inner-box">
                 <div className="front" style={{ backgroundImage: `url(${project.bgImg})` }}>
-                  {/* Optionally add content inside the front of the card */}
                 </div>
-                <div className="back">
-                  <h1>{project.title}</h1>
-                  <div className="project-info">
-                    <p className="project-text">Text: {project.text}</p>
-                    <p className="project-trainer">Trainer: {project.trainer}</p>
-                    <p className="project-date">Date: {project.date}</p>
+                <div className="back font-bold text-lg text-gray-700 mb-4" style={{ fontFamily: 'monospace' }}> 
+               <h1 className="text-center text-2xl font-semibold">{project.title}</h1>
+                <div className="project-info font-medium text-lg text-gray-700 mb-4">
+                  <p className="project-text font-medium text-lg text-gray-700 mb-4">Text: {project.text}</p>
+                  <p className="project-trainer font-medium text-lg text-gray-700 mb-4">Trainer: {project.trainer}</p>
+                    <p className="project-date font-medium text-lg text-gray-700 mb-4">Date: {project.date}</p>
                   </div>
                 </div>
               </div>

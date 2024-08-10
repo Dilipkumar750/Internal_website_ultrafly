@@ -1,0 +1,15 @@
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #03a4ed;
+  background: linear-gradient(
+    90deg,
+    rgb(rgb(231, 137, 130)) 0%,
+    rgb(rgb(rgb(255, 105, 95))) 49%,
+    rgb(rgb(rgb(255, 85, 73))) 100%
+  );
+  transform-origin: 0%;
+}

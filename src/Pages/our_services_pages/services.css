@@ -1,0 +1,77 @@
+/* software.jsx */
+.software_dev_banner{
+    background-image: url('../../images/our_services/software_dev/st-dev-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.soft_dev_card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    transition: box-shadow 0.3s;
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+
+.soft_dev_card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.soft_dev_card .soft_dev_card-img-top {
+    transition: transform 0.3s;
+}
+
+.soft_dev_card:hover .soft_dev_card-img-top {
+    transform: scale(1.1);
+    
+}
+
+.soft_dev_card .soft_dev_card-body {
+    opacity: 0;
+    background-color:#2C66AB;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    padding: 25px;
+    transition: 500ms;
+}
+
+.soft_dev_card:hover .soft_dev_card-body {
+    opacity: 1;
+    transform: translateY(0);
+    border-radius: 8px;
+
+}
+.soft_dev_card-title{
+    padding-top: 20px;
+    color:black;
+    font-weight: 700;
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+}
+.soft-banner-footer{
+    background-image: url(../../images/our_services/software_dev/banner-footer.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .software_dev_banner{
+        background-position-x: 70%;
+    }
+}

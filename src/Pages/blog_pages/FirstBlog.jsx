@@ -17,7 +17,7 @@ function FirstBlog() {
 
     // Mock fetching the number of views (this would be fetched from a database or an API in a real-world scenario)
     const fetchViews = async () => {
-      const viewsData = 174; // Example number of views
+      const viewsData = 1374; // Example number of views
       setViews(viewsData);
     };
 
@@ -28,11 +28,11 @@ function FirstBlog() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Blogs</title>
+          <title>Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology</title>
           <meta property="og:title" content="Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology" />
           <meta property="og:description" content="Explore how Ultrafly Solutions is driving success for businesses worldwide with cutting-edge technology solutions." />
           <meta property="og:image" content={Fimg} />
-          <meta property="og:url" content="https://2845-2409-40f4-114-f17a-e9b3-32e5-8bb-9c54.ngrok-free.app/FirstBlog" />
+          <meta property="og:url" content="https://www.ultraflysolutions.com/FirstBlog" />
           <meta property="og:type" content="article" />
         </Helmet>
       </HelmetProvider>
@@ -71,15 +71,15 @@ function FirstBlog() {
               <h1 className='text-blue font-bold'><u>Share Our Blog:</u></h1>
               <br />
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://2845-2409-40f4-114-f17a-e9b3-32e5-8bb-9c54.ngrok-free.app/FirstBlog')}`}
-                target="_blank"
+href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&quote=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&hashtag=${encodeURIComponent('#UltraflySolutions')}`}
+target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-facebook-f p-3 rounded-full sm:p-[18px] icon text-sm md:text-xl"></i>
               </a>
 
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&url=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&image=${encodeURIComponent(Fimg)}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&url=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&hashtag=${encodeURIComponent('#UltraflySolutions')}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -87,7 +87,7 @@ function FirstBlog() {
               </a>
 
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&title=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&image=${encodeURIComponent(Fimg)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&title=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&summary=${encodeURIComponent('Explore how Ultrafly Solutions is driving success for businesses worldwide with cutting-edge technology solutions.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

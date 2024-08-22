@@ -106,7 +106,8 @@ function Login() {
                 </h2>
                 <h3 className="text-xl md:text-2xl font-semibold ">Phone</h3>
                 <div className="text-[15px] font-medium text-[#646464]">
-                  <p>Phone - +91 91500 01089</p>
+                  <p>Phone - +91 91500 01090</p>
+                  <p>Phone - +91 91500 01091</p>
                   <p>Landline - +0422-267 0033</p>
                 </div>
                 <h3 className="text-xl md:text-2xl font-semibold ">Email</h3>

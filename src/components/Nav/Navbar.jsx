@@ -314,7 +314,8 @@ function Navbar() {
             <ul className="list-none">
               <li>
                 <a href="">
-                  <i class="fa-solid fa-phone"></i> +91 91500 01089
+                  <i class="fa-solid fa-phone"></i> +91 91500 01090<br/>
+                  <i class="fa-solid fa-phone"></i> +91 91500 01091
 
 
                 </a>

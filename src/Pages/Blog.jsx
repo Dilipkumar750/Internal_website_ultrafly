@@ -3,6 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Fimg from '../images/blog/first.jpg'
+import Simg from '../images/blog/seoblog.jpg'
 function Blog() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -39,6 +40,17 @@ function Blog() {
                 <h2 class="font-bold text-xl">Unlocking the Future:</h2>
                 <p class="text-gray-700 text-base">
                 How Ultrafly Solutions is Shaping the Next Generation of Technology
+                </p>
+              </div>
+            </div>
+          </Link>
+          <Link to='/SecondBlog'>
+            <div class="w-full rounded overflow-hidden shadow-2xl p-4">
+              <img class="w-full" src={Simg} alt="Unlocking the Future" />
+              <div class=" py-4">
+                <h2 class="font-bold text-xl">Unlocking Success:</h2>
+                <p class="text-gray-700 text-base">
+                Why SEO Is Important in Business and How Leverage It Today!
                 </p>
               </div>
             </div>

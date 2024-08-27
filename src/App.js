@@ -12,6 +12,7 @@ import SocialMedias from "./Pages/our_services_pages/SocialMedias";
 import Loder from "./Pages/Loder";
 import Error from "./Pages/Error";
 
+
 const Login = lazy(() => import("./Pages/Login"));
 const SignUp = lazy(() => import("./Pages/SignUp"));
 const Home = lazy(() => import("./Pages/Home"));
@@ -37,6 +38,7 @@ const Seo = lazy(() => import("./Pages/our_services_pages/Seo"));
 const Software = lazy(() => import("./Pages/our_services_pages/Software"));
 const Website = lazy(() => import("./Pages/our_services_pages/Website"));
 const FirstBlog = lazy(() => import("./Pages/blog_pages/FirstBlog"));
+const SecondBlog = lazy(() => import("./Pages/blog_pages/SecondBlog"));
 
 
 function App() {
@@ -65,6 +67,7 @@ function App() {
             <Route path="/portfolio" element={<Classes />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/FirstBlog" element={<FirstBlog />} />
+            <Route path="/SecondBlog" element={<SecondBlog />} />
             <Route path="/services" element={<Ourservices />} />
             <Route path="/it-staffing" element={<ITStaffing />} />
             <Route path="/mobile-app-development" element={<Mobile />} />

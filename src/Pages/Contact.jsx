@@ -112,8 +112,12 @@ function Login() {
                 </div>
                 <h3 className="text-xl md:text-2xl font-semibold ">Email</h3>
                 <div className="text-[15px] font-medium text-[#646464]">
-                  <p>Business - info@ultraflysolutions.com</p>
-                  <p>HR/Careers - hr@ultraflysolutions.com</p>
+                <a href="mailto:hr@ultraflysolutions.com">
+                  <i class="fa-solid fa-envelope"></i>Business -  info@ultraflysolutions.com
+                </a><br/>
+                <a href="mailto:hr@ultraflysolutions.com">
+                  <i class="fa-solid fa-envelope"></i>HR/Careers - hr@ultraflysolutions.com
+                </a>
                 </div>
               </div>
               {/*  */}

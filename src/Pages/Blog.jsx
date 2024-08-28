@@ -30,7 +30,7 @@ function Blog() {
           <h1 className=" text-blue-500 text-center text-3xl md:text-4xl font-bold pb-12 pt-24 w-full">
             ULTRAFLY SOLUTIONS BLOG
           </h1>
-          <p className="px-10 sm:px-24 pb-10 md:pb-10">Welcome to the Ultrafly Solutions blog! Here, we explore the latest in tech innovations, industry trends, and our groundbreaking solutions designed to elevate your business. Stay tuned for insights, updates, and expert advice to help you stay ahead in the fast-paced digital world.</p>
+          <p className="px-10 sm:px-24 pb-10 md:pb-10 ">Welcome to the Ultrafly Solutions blog! Here, we explore the latest in tech innovations, industry trends, and our groundbreaking solutions designed to elevate your business. Stay tuned for insights, updates, and expert advice to help you stay ahead in the fast-paced digital world.</p>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  px-10 sm:px-24 gap-8 ">
           <Link to='/FirstBlog'>
@@ -38,7 +38,7 @@ function Blog() {
               <img class="w-full" src={Fimg} alt="Unlocking the Future" />
               <div class=" py-4">
                 <h2 class="font-bold text-xl">Unlocking the Future:</h2>
-                <p class="text-gray-700 text-base">
+                <p class="text-gray-700 text-base font-bold">
                 How Ultrafly Solutions is Shaping the Next Generation of Technology
                 </p>
               </div>
@@ -49,7 +49,7 @@ function Blog() {
               <img class="w-full" src={Simg} alt="Unlocking the Future" />
               <div class=" py-4">
                 <h2 class="font-bold text-xl">Unlocking Success:</h2>
-                <p class="text-gray-700 text-base">
+                <p class="text-gray-700 text-base font-bold">
                 Why SEO Is Important in Business and How Leverage It Today!
                 </p>
               </div>

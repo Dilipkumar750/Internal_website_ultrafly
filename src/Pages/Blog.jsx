@@ -33,7 +33,7 @@ function Blog() {
           <p className="px-10 sm:px-24 pb-10 md:pb-10 ">Welcome to the Ultrafly Solutions blog! Here, we explore the latest in tech innovations, industry trends, and our groundbreaking solutions designed to elevate your business. Stay tuned for insights, updates, and expert advice to help you stay ahead in the fast-paced digital world.</p>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  px-10 sm:px-24 gap-8 ">
-          <Link to='/FirstBlog'>
+          <Link to='/ultrafly-solutions-driving-tech-innovation'>
             <div class="w-full rounded overflow-hidden shadow-2xl p-4">
               <img class="w-full" src={Fimg} alt="Unlocking the Future" />
               <div class=" py-4">
@@ -44,7 +44,7 @@ function Blog() {
               </div>
             </div>
           </Link>
-          <Link to='/SecondBlog'>
+          <Link to='/why-seo-important-in-business'>
             <div class="w-full rounded overflow-hidden shadow-2xl p-4">
               <img class="w-full" src={Simg} alt="Unlocking the Future" />
               <div class=" py-4">

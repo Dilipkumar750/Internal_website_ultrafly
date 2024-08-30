@@ -9,7 +9,7 @@ import CountUp from "react-countup";
 import { FaEye } from 'react-icons/fa';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-function FirstBlog() {
+function UnlockingFuture() {
   const [views, setViews] = useState(0);
 
   useEffect(() => {
@@ -32,12 +32,12 @@ function FirstBlog() {
           <meta property="og:title" content="Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology" />
           <meta property="og:description" content="Explore how Ultrafly Solutions is driving success for businesses worldwide with cutting-edge technology solutions." />
           <meta property="og:image" content={Fimg} />
-          <meta property="og:url" content="https://www.ultraflysolutions.com/FirstBlog" />
+          <meta property="og:url" content="https://www.ultraflysolutions.com/ultrafly-solutions-driving-tech-innovation" />
           <meta property="og:type" content="article" />
         </Helmet>
       </HelmetProvider>
 
-      <div className='mt-24 px-4 md:px-10 lg:px-46 grid gap-4 ml-6'>
+      <div className='mt-28 px-4 md:px-10 lg:px-46 grid gap-4 ml-6'>
         {/* Image and Text Section */}
         <div className='grid md:grid-cols-3 gap-3 pr-10'>
           <div className='col-span-2 grid justify-center gap-2'>
@@ -71,7 +71,7 @@ function FirstBlog() {
               <h1 className='text-blue font-bold'><u>Share Our Blog:</u></h1>
               <br />
               <a
-href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&quote=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&hashtag=${encodeURIComponent('#UltraflySolutions')}`}
+href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://www.ultraflysolutions.com/ultrafly-solutions-driving-tech-innovation')}&quote=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&hashtag=${encodeURIComponent('#UltraflySolutions')}`}
 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -79,7 +79,7 @@ target="_blank"
               </a>
 
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&url=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&hashtag=${encodeURIComponent('#UltraflySolutions')}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&url=${encodeURIComponent('https://www.ultraflysolutions.com/ultrafly-solutions-driving-tech-innovation')}&hashtag=${encodeURIComponent('#UltraflySolutions')}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -87,7 +87,7 @@ target="_blank"
               </a>
 
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.ultraflysolutions.com/FirstBlog')}&title=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&summary=${encodeURIComponent('Explore how Ultrafly Solutions is driving success for businesses worldwide with cutting-edge technology solutions.')}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://www.ultraflysolutions.com/ultrafly-solutions-driving-tech-innovation')}&title=${encodeURIComponent('Unlocking the Future: How Ultrafly Solutions is Shaping the Next Generation of Technology')}&summary=${encodeURIComponent('Explore how Ultrafly Solutions is driving success for businesses worldwide with cutting-edge technology solutions.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -193,4 +193,4 @@ function About() {
   );
 }
 
-export default FirstBlog;
+export default UnlockingFuture;

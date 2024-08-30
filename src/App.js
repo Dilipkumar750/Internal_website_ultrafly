@@ -37,8 +37,8 @@ const Mobile = lazy(() => import("./Pages/our_services_pages/Mobile"));
 const Seo = lazy(() => import("./Pages/our_services_pages/Seo"));
 const Software = lazy(() => import("./Pages/our_services_pages/Software"));
 const Website = lazy(() => import("./Pages/our_services_pages/Website"));
-const FirstBlog = lazy(() => import("./Pages/blog_pages/FirstBlog"));
-const SecondBlog = lazy(() => import("./Pages/blog_pages/SecondBlog"));
+const UnlockingFuture = lazy(() => import("./Pages/blog_pages/UnlockingFuture"));
+const UnlockingSuccess = lazy(() => import("./Pages/blog_pages/UnlockingSuccess"));
 
 
 function App() {
@@ -66,8 +66,8 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/portfolio" element={<Classes />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/FirstBlog" element={<FirstBlog />} />
-            <Route path="/SecondBlog" element={<SecondBlog />} />
+            <Route path="/ultrafly-solutions-driving-tech-innovation" element={<UnlockingFuture />} />
+            <Route path="/why-seo-important-in-business" element={<UnlockingSuccess />} />
             <Route path="/services" element={<Ourservices />} />
             <Route path="/it-staffing" element={<ITStaffing />} />
             <Route path="/mobile-app-development" element={<Mobile />} />

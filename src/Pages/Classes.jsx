@@ -13,10 +13,10 @@ function Classes() {
   }, []);
 
   const projects = [
-    { bgImg: bg1, title: "Den Mark", trainer: "", date: "", text: "If you think math is hard, try web design." },
+    { bgImg: bg1, title: "Den Mark", trainer: "", date: "", text: "Den Mark is a mobile app for a movie OTT platform, offering features like multi-language support, personalized recommendations, and offline viewing. Built with React Native, React.js, Node.js, and MongoDB, it ensures a smooth and secure user experience. This app is designed to delight and satisfy clients with its reliability and ease of use." },
     { bgImg: bg2, title: "Sales Life Site - Website", trainer: "", date: "", text: "A website without SEO is like a car with no gas.” Paul Cookson" },
     { bgImg: bg3, title: "Adappt - Website", trainer: "John Flex", date: "Tue: 4:00 pm", text: "Websites promote you 24/7: No employee will do that" },
-    { bgImg: bg4, title: "Time Sheet - Website", trainer: "David Rich", date: "Sat: 9:00 am", text: "Digital design is like painting, except the paint never dries." },
+    { bgImg: bg4, title: "Time Sheet - Website", trainer: "David Rich", date: "Sat: 9:00 am", text: "Our mobile time sheets app simplifies tracking work hours for small teams and individuals. It offers easy time entry, real-time reporting, and seamless integration with payroll systems. Designed for efficiency and accuracy, it helps manage time effectively and streamline administrative tasks." },
     { bgImg: bg5, title: "Mobile App", trainer: "Larry Wheels", date: "Mon: 8:00 pm", text: "A bad website is like a grumpy salesperson." },
     { bgImg: bg6, title: "Mobile App", trainer: "Shawn Ray", date: "Sun: 10:00 am", text: "Website without visitors is like a ship lost in the horizon." },
   ];
@@ -66,7 +66,7 @@ function Classes() {
               <div className="inner-box">
                 <div className="front" style={{ backgroundImage: `url(${project.bgImg})` }}>
                 </div>
-                <div className="back font-bold text-lg text-gray-700 mb-4" style={{ fontFamily: 'monospace' }}> 
+                <div className="back font-bold text-lg text-gray-700 mb-4"> 
                <h1 className="text-center text-2xl font-semibold">{project.title}</h1>
                 <div className="project-info font-medium text-lg text-gray-700 mb-4">
                   <p className="project-text font-medium text-lg text-gray-700 mb-4">Text: {project.text}</p>
